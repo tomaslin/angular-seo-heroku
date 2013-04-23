@@ -49,7 +49,7 @@ server.listen(port, function (request, response) {
     renderHtml(url, function(html) {
         response.statusCode = 200;
         response.write(html);
-        response.close();
+        response.closeGracefully();
     });
 });
 
