@@ -1,1 +1,1 @@
-web: phantomjs --disk-cache=no angular-seo-server.js $PORT http://dry-ravine-2554.herokuapp.com/
+web: phantomjs --disk-cache=no angular-seo-server.js $PORT http://angular-seo.herokuapp.com/
