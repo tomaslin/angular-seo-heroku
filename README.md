@@ -4,6 +4,8 @@ Angular SEO allows you to do server side rendering of angular applications.
 
 To run.
 
-create a cedar stack
+create a cedar stack with phantomjs
 
-heroku create
+heroku create --stack cedar --buildpack http://github.com/stomita/heroku-buildpack-phantomjs.git
+
+modify procfile to point to the path you want to seo optimize.
